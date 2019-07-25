@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ying-Music</title>
+  <link rel="stylesheet" href="src/scss/index.scss">
+</head>
+
+<body>
+  <div id="player">
+
+    <!-- 头部，包括“标题”和“介绍” -->
+    <div class="header">
+      <h1>后来的我们</h1>
+      <p>五月天-后来的我们</p>
+      <div class="balls">
+        <span class="current"></span>
+        <span></span>
+      </div>
+    </div>
+
+    <!-- 两个面板 -->
+    <div class="panels panel1">
+      <!-- 滑动前面板 -->
+      <div class="panel-effect">
+        <div class="effect">
+          <div class="effect-1"></div>
+          <div class="effect-2"></div>
+          <div class="effect-3"></div>
+        </div>
+        <div class="lyric">
+          <p class="current">作词：阿信</p>
+          <p>然后呢</p>
+        </div>
+      </div>
+      <!-- 滑动后歌词面板 -->
+      <div class="panel-lyrics">
+        <div class="container">
+          <!-- <p>1作曲：怪兽</p>
+          <p>2作词：阿信</p>
+          <p>3然后呢</p>
+          <p>4他们说你的心 似乎痊愈了</p>
+          <p>5也开始有个人 为你守候着</p>
+          <p>6我该心安或是 心痛呢</p>
+          <p>7然后呢</p>
+          <p>8其实我的日子 也还可以呢</p>
+          <p>9除了回忆肆虐 的某些时刻</p>
+          <p>10庆幸还有眼泪 冲淡苦涩</p>
+          <p>11而那些昨日 依然缤纷着</p>
+          <p class="current">12它们都有我 细心收藏着</p>
+          <p>13也许你还记得 也许你都忘了</p>
+          <p>14也不是那么 重要了</p>
+          <p>15只期待 后来的你 能快乐</p>
+          <p>16那就是 后来的我 最想的</p>
+          <p>17后来的我们 依然走着</p>
+          <p>18只是不再并肩了</p> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- 底部 -->
+    <div class="footer">
+      <!-- SVG图片 -->
+      <div class="buttons">
+        <svg class="btn-like" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true">
+          <use xlink:href="#icon-like" /></svg>
+        <svg class="btn-download" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true">
+          <use xlink:href="#icon-download" /></svg>
+        <svg class="btn-share" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true">
+          <use xlink:href="#icon-share" /></svg>
+        <svg class="btn-comment" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true">
+          <use xlink:href="#icon-comment" /></svg>
+      </div>
+      <!-- 播放进度条 -->
+      <div class="bar-area">
+        <span class="time-start">00:00</span>
+        <span class="time-end">00:00</span>
+
+        <div class="bar">
+          <div class="control"></div>
+          <div class="progress"></div>
+        </div>
+
+      </div>
+      <!-- 操作按钮 -->
+      <div class="actions">
+        <svg class="btn-order" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true">
+          <use xlink:href="#icon-circle" /></svg>
+        <svg class="btn-pre" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true">
+          <use xlink:href="#icon-pre" /></svg>
+        <svg class="btn-play-pause pause" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true">
+          <use xlink:href="#icon-play" /></svg>
+        <svg class="btn-next" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true">
+          <use xlink:href="#icon-next" /></svg>
+        <svg class="btn-music-list" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true">
+          <use xlink:href="#icon-list" /></svg>
+      </div>
+    </div>
+
+  </div>
+
+  <script type="text/javascript" src="src/js/index.js"></script>
+</body>
+
+</html>
