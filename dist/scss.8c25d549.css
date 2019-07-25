@@ -140,6 +140,10 @@
   height: 24px;
   margin: 0 20px;
 }
+#player .footer .buttons svg.liker {
+  transition: all 0.2s;
+  animation: scale 1s ease-out;
+}
 #player .footer .bar-area {
   display: flex;
   align-items: center;
@@ -207,6 +211,17 @@
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
   }
 }
 

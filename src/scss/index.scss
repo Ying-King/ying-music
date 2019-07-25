@@ -163,6 +163,11 @@ $color3: #0025f1;
         width: 24px;
         height: 24px;
         margin: 0 20px;
+
+        &.liker {
+          transition: all .2s;
+          animation: scale 1s ease-out;
+        }
       }
     }
 
@@ -245,5 +250,17 @@ $color3: #0025f1;
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
   }
 }
