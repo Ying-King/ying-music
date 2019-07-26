@@ -19,17 +19,17 @@ $color3: #0025f1;
   overflow: hidden;
 
   .header {
-    height: 110px;
+    height: 2.2rem /* 110/50 */;
     text-align: center;
     h1 {
-      padding-top: 20px;
-      font-size: 20px;
+      padding-top: .4rem /* 20/50 */;
+      font-size: .4rem /* 20/50 */;
       color: $color;
     }
 
     p {
-      padding-top: 5px;
-      font-size: 12px;
+      padding-top: .1rem /* 5/50 */;
+      font-size: .24rem /* 12/50 */;
       color: $color1;
     }
 
@@ -38,19 +38,19 @@ $color3: #0025f1;
       justify-content: center;
       align-items: center;
 
-      margin-top: 15px;
+      margin-top: .3rem /* 15/50 */;
 
       span {
         display: block;
-        width: 5px;
-        height: 5px;
-        margin: 0 4px;
+        width: .1rem /* 5/50 */;
+        height: .1rem /* 5/50 */;
+        margin: 0 .08rem /* 4/50 */;
         border-radius: 50%;
         background: $color2-darker;
 
         &.current {
-          width: 8px;
-          height: 8px;
+          width: .16rem /* 8/50 */;
+          height: .16rem /* 8/50 */;
           background: $color2;
         }
       }
@@ -62,7 +62,7 @@ $color3: #0025f1;
     align-items: center; 
 
     width: 200vw; /* 两个面板,设置面板的整体宽度为 200vw */
-    height: calc(100vh - 270px); /* “整体屏幕的高度” - “上（110px）、下（160px）固定高度之和”*/
+    height: calc(100vh - 5.4rem ); /* 270/50 “整体屏幕的高度” - “上（110px）、下（160px）固定高度之和”*/
     
     transition: transform .3s; /* 使其“滑动时”能够“平滑”地过渡 */
 
@@ -120,8 +120,8 @@ $color3: #0025f1;
       .lyric {
         text-align: center;
         p {
-          margin-top: 8px;
-          font-size: 14px;
+          margin-top: .2rem /* 10/50 */;
+          font-size: .28rem /* 14/50 */;
           color: $color1;
 
           &.current {
@@ -133,14 +133,14 @@ $color3: #0025f1;
 
     .panel-lyrics {
       width: 100vw;
-      height: calc(100% - 40px);
+      height: calc(100% - .8rem); /* 40/50 */
       text-align: center;
       overflow: hidden;
 
       .container {
         transition: all .4s;
         p {
-          font-size: 14px;
+          font-size: .28rem /* 14/50 */;
           line-height: 2;
           color: $color1;
 
@@ -153,16 +153,16 @@ $color3: #0025f1;
   }
 
   .footer {
-    height: 160px;
+    height: 3.2rem /* 160/50 */;
 
     .buttons {
       display: flex;
       justify-content: center;
 
       svg {
-        width: 24px;
-        height: 24px;
-        margin: 0 20px;
+        width: .48rem /* 24/50 */;
+        height: .48rem /* 24/50 */;
+        margin: 0 .4rem /* 20/50 */;
 
         &.liker {
           transition: all .2s;
@@ -175,38 +175,38 @@ $color3: #0025f1;
       display: flex;
       align-items: center;
 
-      padding: 0 20px;
-      margin-top: 20px;
-      font-size: 12px;
+      padding: 0 .4rem /* 20/50 */;
+      margin-top: .4rem /* 20/50 */;
+      font-size: .24rem /* 12/50 */;
       color: $color1;
 
       .time-start {
         order: 1; 
-        width: 40px;
+        width: .8rem /* 40/50 */;
       }
 
       .time-end {
         order: 3;
-        width: 40px;
+        width: .8rem /* 40/50 */;
       }
 
       .bar {
         position: relative;
         order: 2;
         flex: 1; /*️ 自动撑开 */
-        height: 4px;
+        height: .08rem /* 4/50 */;
         background: $color3;
-        border-radius: 2px;
-        margin: 0 10px;
+        border-radius: .04rem /* 2/50 */;
+        margin: 0 .2rem /* 10/50 */;
 
         .control {
           position: absolute;  /*️ 定位到 .progress 的“最右侧” */
-          left: -8px;
-          top: -7px;
+          left: -.16rem /* 8/50 */;
+          top: -.14rem /* 7/50 */;
 
           display: block;
-          width: 16px;
-          height: 16px;
+          width: .32rem /* 16/50 */;
+          height: .32rem /* 16/50 */;
 
           background: url(../svg/progress.svg) 0 0 no-repeat;
           background-size: contain;
@@ -217,7 +217,7 @@ $color3: #0025f1;
           transition: all .3s;
           width: 0%; 
           height: 100%;
-          border-radius: 2px;
+          border-radius: .04rem /* 2/50 */;
           background: $color2;
         }
       }
@@ -228,16 +228,16 @@ $color3: #0025f1;
       align-items: center;
       justify-content: space-between;
 
-      margin-top: 20px;
-      padding: 0 20px;
+      margin-top: .4rem /* 20/50 */;
+      padding: 0 .4rem /* 20/50 */;
 
       svg {
-        width: 28px;
-        height: 28px;
+        width: .56rem /* 28/50 */;
+        height: .56rem /* 28/50 */;
         
         &.btn-play-pause {
-          width: 50px;
-          height: 50px;
+          width: 1rem /* 50/50 */;
+          height: 1rem /* 50/50 */;
         }
       }
     }

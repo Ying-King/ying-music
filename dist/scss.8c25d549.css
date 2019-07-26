@@ -11,36 +11,36 @@
   overflow: hidden;
 }
 #player .header {
-  height: 110px;
+  height: 2.2rem;
   text-align: center;
 }
 #player .header h1 {
-  padding-top: 20px;
-  font-size: 20px;
+  padding-top: 0.4rem;
+  font-size: 0.4rem;
   color: #fff;
 }
 #player .header p {
-  padding-top: 5px;
-  font-size: 12px;
+  padding-top: 0.1rem;
+  font-size: 0.24rem;
   color: #868aaf;
 }
 #player .header .balls {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 0.3rem;
 }
 #player .header .balls span {
   display: block;
-  width: 5px;
-  height: 5px;
-  margin: 0 4px;
+  width: 0.1rem;
+  height: 0.1rem;
+  margin: 0 0.08rem;
   border-radius: 50%;
   background: #6a134f;
 }
 #player .header .balls span.current {
-  width: 8px;
-  height: 8px;
+  width: 0.16rem;
+  height: 0.16rem;
   background: #db3baa;
 }
 #player .panels {
@@ -49,8 +49,8 @@
   align-items: center;
   width: 200vw;
   /* 两个面板,设置面板的整体宽度为 200vw */
-  height: calc(100vh - 270px);
-  /* “整体屏幕的高度” - “上（110px）、下（160px）固定高度之和”*/
+  height: calc(100vh - 5.4rem );
+  /* 270/50 “整体屏幕的高度” - “上（110px）、下（160px）固定高度之和”*/
   transition: transform 0.3s;
   /* 使其“滑动时”能够“平滑”地过渡 */
 }
@@ -104,8 +104,8 @@
   text-align: center;
 }
 #player .panels .panel-effect .lyric p {
-  margin-top: 8px;
-  font-size: 14px;
+  margin-top: 0.2rem;
+  font-size: 0.28rem;
   color: #868aaf;
 }
 #player .panels .panel-effect .lyric p.current {
@@ -113,7 +113,8 @@
 }
 #player .panels .panel-lyrics {
   width: 100vw;
-  height: calc(100% - 40px);
+  height: calc(100% - .8rem);
+  /* 40/50 */
   text-align: center;
   overflow: hidden;
 }
@@ -121,7 +122,7 @@
   transition: all 0.4s;
 }
 #player .panels .panel-lyrics .container p {
-  font-size: 14px;
+  font-size: 0.28rem;
   line-height: 2;
   color: #868aaf;
 }
@@ -129,16 +130,16 @@
   color: #fff;
 }
 #player .footer {
-  height: 160px;
+  height: 3.2rem;
 }
 #player .footer .buttons {
   display: flex;
   justify-content: center;
 }
 #player .footer .buttons svg {
-  width: 24px;
-  height: 24px;
-  margin: 0 20px;
+  width: 0.48rem;
+  height: 0.48rem;
+  margin: 0 0.4rem;
 }
 #player .footer .buttons svg.liker {
   transition: all 0.2s;
@@ -147,37 +148,37 @@
 #player .footer .bar-area {
   display: flex;
   align-items: center;
-  padding: 0 20px;
-  margin-top: 20px;
-  font-size: 12px;
+  padding: 0 0.4rem;
+  margin-top: 0.4rem;
+  font-size: 0.24rem;
   color: #868aaf;
 }
 #player .footer .bar-area .time-start {
   order: 1;
-  width: 40px;
+  width: 0.8rem;
 }
 #player .footer .bar-area .time-end {
   order: 3;
-  width: 40px;
+  width: 0.8rem;
 }
 #player .footer .bar-area .bar {
   position: relative;
   order: 2;
   flex: 1;
   /*️ 自动撑开 */
-  height: 4px;
+  height: 0.08rem;
   background: #0025f1;
-  border-radius: 2px;
-  margin: 0 10px;
+  border-radius: 0.04rem;
+  margin: 0 0.2rem;
 }
 #player .footer .bar-area .bar .control {
   position: absolute;
   /*️ 定位到 .progress 的“最右侧” */
-  left: -8px;
-  top: -7px;
+  left: -0.16rem;
+  top: -0.14rem;
   display: block;
-  width: 16px;
-  height: 16px;
+  width: 0.32rem;
+  height: 0.32rem;
   background: url(/progress.798a5c76.svg) 0 0 no-repeat;
   background-size: contain;
   cursor: pointer;
@@ -186,23 +187,23 @@
   transition: all 0.3s;
   width: 0%;
   height: 100%;
-  border-radius: 2px;
+  border-radius: 0.04rem;
   background: #db3baa;
 }
 #player .footer .actions {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 20px;
-  padding: 0 20px;
+  margin-top: 0.4rem;
+  padding: 0 0.4rem;
 }
 #player .footer .actions svg {
-  width: 28px;
-  height: 28px;
+  width: 0.56rem;
+  height: 0.56rem;
 }
 #player .footer .actions svg.btn-play-pause {
-  width: 50px;
-  height: 50px;
+  width: 1rem;
+  height: 1rem;
 }
 
 @keyframes rotate {

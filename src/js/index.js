@@ -1,4 +1,5 @@
 import './icons'
+import './rem'
 import Swiper from './swiper'
 
 class Player {
@@ -161,8 +162,17 @@ class Player {
       console.log('next')
     }
 
+    // 自动播放下一首
+    self.audio.addEventListener('ended', function () {
+      console.log('end')
+      self.currentIndex = (self.currentIndex + 1) % self.songList.length
+      self.loadSong()
+      self.playSong()
+      console.log('next')
+    }, false)
+
     // 刷新
-    btnLoad.onclick = function() {
+    btnLoad.onclick = function () {
       if (btnPlayPause.classList.contains('pause')) {
         btnPlayPause.classList.remove('pause')
         btnPlayPause.classList.add('playing')
@@ -175,7 +185,7 @@ class Player {
     }
 
     // 喜欢
-    btnLike.onclick = function() {
+    btnLike.onclick = function () {
       if (this.classList.contains('like')) {
         this.classList.remove('like')
         this.classList.add('liker')
@@ -273,17 +283,17 @@ class Player {
     console.log('locateLyric')
 
     let currentTime = this.audio.currentTime * 1000
-    let nextLineTime = this.lyricsArr[this.lyricIndex + 1][0]
+    if (this.lyricIndex < this.lyricsArr.length - 1) {
+      let nextLineTime = this.lyricsArr[this.lyricIndex + 1][0]
+      if (currentTime > nextLineTime) { // 播放歌曲的时间大于 DOM 元素
+        this.lyricIndex++
+        let node = this.$('[data-time="' + this.lyricsArr[this.lyricIndex][0] + '"]')
 
-    // 播放歌曲的时间大于 DOM 元素
-    if (currentTime > nextLineTime && this.lyricIndex < this.lyricsArr.length - 1) {
-      this.lyricIndex++
-      let node = this.$('[data-time="' + this.lyricsArr[this.lyricIndex][0] + '"]')
+        if (node) this.setLyricToCenter(node)
 
-      if (node) this.setLyricToCenter(node)
-
-      this.$$('.panel-effect .lyric p')[0].innerText = this.lyricsArr[this.lyricIndex][1]
-      this.$$('.panel-effect .lyric p')[1].innerText = this.lyricsArr[this.lyricIndex + 1] ? this.lyricsArr[this.lyricIndex + 1][1] : ''
+        this.$$('.panel-effect .lyric p')[0].innerText = this.lyricsArr[this.lyricIndex][1]
+        this.$$('.panel-effect .lyric p')[1].innerText = this.lyricsArr[this.lyricIndex + 1] ? this.lyricsArr[this.lyricIndex + 1][1] : ''
+      }
     }
   }
 
