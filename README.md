@@ -28,7 +28,7 @@
 
 ## 3. Demo在线演示地址
 
-[Ying-Music](https://ying-king.github.io/ying-music/dist/index.html)
+请使用 Chrome 等Device Mode 模拟移动设备下查看：[Ying-Music](https://ying-king.github.io/ying-music/dist/index.html)
 
 ***
 
