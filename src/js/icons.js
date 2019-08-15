@@ -57,7 +57,7 @@ svgPlaceholder.innerHTML = `
 <svg>
 <symbol id="icon-circle" width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
-    <title>循环模式</title>
+    <title>刷新</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" gradientTransform="translate(0.500000,0.500000),scale(1.000000,0.994186),translate(-0.500000,-0.500000)" id="radialGradient-1">
@@ -90,7 +90,7 @@ svgPlaceholder.innerHTML = `
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="iPhone-8" transform="translate(-17.000000, -198.000000)">
-            <g id="循环模式" transform="translate(17.000000, 198.000000)">
+            <g id="刷新" transform="translate(17.000000, 198.000000)">
                 <g id="图-资源-12">
                     <ellipse id="Oval" fill="url(#radialGradient-1)" cx="60" cy="60.3278689" rx="56.0655738" ry="56.3934426"></ellipse>
                     <path d="M59.9548308,5.61469731 C86.7262364,5.59034291 109.53495,25.1646104 113.727249,51.7617846 C117.919548,78.3589588 102.24883,104.07023 76.7829298,112.377093 C51.3170297,120.683956 23.6283668,109.116322 11.5058441,85.1059517 C-0.616678668,61.0955812 6.4316347,31.7820844 28.1225135,15.9982575 C37.381525,9.2515634 48.5217809,5.61766153 59.9548308,5.61469731 Z M59.9548308,3.93450958 C33.9678996,3.96156583 11.4045662,21.9459534 5.43790156,47.387911 C-0.528763057,72.8298686 11.6648878,99.0619808 34.8998782,110.769246 C42.7110885,114.676325 51.3147233,116.713418 60.0383473,116.721311 C81.0928073,116.708669 100.365002,104.83052 109.936925,85.9670171 C119.508848,67.1035138 117.766372,44.4356389 105.425394,27.2765176 C94.8863331,12.5904686 77.9653263,3.9033857 59.9590067,3.93450958 L59.9548308,3.93450958 Z" id="Shape" fill="url(#linearGradient-2)" fill-rule="nonzero"></path>
@@ -160,7 +160,7 @@ svgPlaceholder.innerHTML = `
 </symbol>
 <symbol id="icon-play" width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
-    <title>图-资源 14</title>
+    <title>播放</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" id="radialGradient-1">
@@ -201,7 +201,7 @@ svgPlaceholder.innerHTML = `
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="iPhone-8" transform="translate(-98.000000, -367.000000)">
-            <g id="图-资源-14" transform="translate(98.000000, 367.000000)">
+            <g id="播放" transform="translate(98.000000, 367.000000)">
                 <circle id="Oval" fill="url(#radialGradient-1)" cx="60" cy="60" r="56.2303665"></circle>
                 <path d="M59.9546981,5.44504565 C86.8047924,5.42076168 109.680547,24.9384252 113.885169,51.4586868 C118.08979,77.9789484 102.373011,103.615869 76.8322597,111.89871 C51.2915079,120.181552 23.5214602,108.647369 11.3633059,84.7064306 C-0.794848386,60.7654923 6.27418198,31.536763 28.0288164,15.7985791 C37.3150428,9.07139481 48.4880431,5.4480013 59.9546981,5.44504565 Z M59.9546981,3.76971662 C33.8913838,3.79669463 11.2617303,21.7290757 5.27752798,47.0974614 C-0.706674366,72.465847 11.5228171,98.6221023 34.8261017,110.295513 C42.6602715,114.191294 51.2891948,116.222496 60.0384601,116.230366 C81.154805,116.217761 100.483646,104.373961 110.083704,85.5650061 C119.683762,66.7560514 117.936164,44.1537265 105.558912,27.0442253 C94.988874,12.4006447 78.0181315,3.73868274 59.9588862,3.76971662 L59.9546981,3.76971662 Z" id="Shape" fill="url(#linearGradient-2)" fill-rule="nonzero"></path>
                 <path d="M3.11355095,79.1623037 C-5.36387289,53.8217077 3.88441428,25.9210279 25.8132918,10.6806283 L28.9005236,15.1633244 C8.93631605,29.0036591 0.520150101,54.3917412 8.25754093,77.4346415 L3.11355095,79.1623037 Z" id="Path" fill="url(#linearGradient-3)"></path>
@@ -217,7 +217,7 @@ svgPlaceholder.innerHTML = `
 </symbol>
 <symbol id="icon-pause" width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
-    <title>图-资源 14 copy</title>
+    <title>播放</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" id="radialGradient-1">
