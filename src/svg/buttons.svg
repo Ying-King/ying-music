@@ -40,7 +40,7 @@
 <svg>
 <symbol id="icon-circle" width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
-    <title>循环模式</title>
+    <title>刷新</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" gradientTransform="translate(0.500000,0.500000),scale(1.000000,0.994186),translate(-0.500000,-0.500000)" id="radialGradient-1">
@@ -73,7 +73,7 @@
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="iPhone-8" transform="translate(-17.000000, -198.000000)">
-            <g id="循环模式" transform="translate(17.000000, 198.000000)">
+            <g id="刷新" transform="translate(17.000000, 198.000000)">
                 <g id="图-资源-12">
                     <ellipse id="Oval" fill="url(#radialGradient-1)" cx="60" cy="60.3278689" rx="56.0655738" ry="56.3934426"></ellipse>
                     <path d="M59.9548308,5.61469731 C86.7262364,5.59034291 109.53495,25.1646104 113.727249,51.7617846 C117.919548,78.3589588 102.24883,104.07023 76.7829298,112.377093 C51.3170297,120.683956 23.6283668,109.116322 11.5058441,85.1059517 C-0.616678668,61.0955812 6.4316347,31.7820844 28.1225135,15.9982575 C37.381525,9.2515634 48.5217809,5.61766153 59.9548308,5.61469731 Z M59.9548308,3.93450958 C33.9678996,3.96156583 11.4045662,21.9459534 5.43790156,47.387911 C-0.528763057,72.8298686 11.6648878,99.0619808 34.8998782,110.769246 C42.7110885,114.676325 51.3147233,116.713418 60.0383473,116.721311 C81.0928073,116.708669 100.365002,104.83052 109.936925,85.9670171 C119.508848,67.1035138 117.766372,44.4356389 105.425394,27.2765176 C94.8863331,12.5904686 77.9653263,3.9033857 59.9590067,3.93450958 L59.9548308,3.93450958 Z" id="Shape" fill="url(#linearGradient-2)" fill-rule="nonzero"></path>
@@ -143,7 +143,7 @@
 </symbol>
 <symbol id="icon-play" width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
-    <title>图-资源 14</title>
+    <title>播放</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" id="radialGradient-1">

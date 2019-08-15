@@ -28,6 +28,10 @@ class Player {
         console.log(data)
         this.songList = data
         this.loadSong()
+        this.playSong()
+        this.$('.btn-play-pause').classList.remove('pause')
+        this.$('.btn-play-pause').classList.add('playing')
+        this.$('.btn-play-pause').querySelector('use').setAttribute('xlink:href', '#icon-pause')
       }).catch(err => {
         console.log(err)
       })

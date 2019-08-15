@@ -279,6 +279,14 @@ function () {
         _this2.songList = data;
 
         _this2.loadSong();
+
+        _this2.playSong();
+
+        _this2.$('.btn-play-pause').classList.remove('pause');
+
+        _this2.$('.btn-play-pause').classList.add('playing');
+
+        _this2.$('.btn-play-pause').querySelector('use').setAttribute('xlink:href', '#icon-pause');
       }).catch(function (err) {
         console.log(err);
       });
@@ -642,7 +650,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50081" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54770" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
